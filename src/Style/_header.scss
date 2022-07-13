@@ -1,0 +1,177 @@
+.header {
+
+  &__top {
+    border-bottom: 1px solid #ececec;
+    font-size: 15px;
+    line-height: 36px;
+    color: #333;
+    opacity: 0.9;
+    padding: 3px 0 2px;
+  }
+
+  &__top-left {
+
+
+    i {
+      transform: translateY(2px);
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+
+  &__top-right {
+      width: 308px;
+  }
+
+  &__top-text {
+    position: relative;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #6bad0d;
+    }
+
+    i {
+      transform: translateY(3px);
+      font-size: 19px;
+      opacity: 0.9;
+    }
+
+    img {
+      transform: translateY(-2px);
+    }
+  }
+
+  /* main */
+
+  &__main {
+    border-bottom: 1px solid #ececec;
+    padding: 40px 0px;
+  }
+
+  &__main-logo {
+
+    img {
+      width: 121px;
+      height: 30px;
+    }
+  }
+
+  &__main-form {
+    display: block;
+    width: 70%;
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  &__main-input {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #333;
+    padding: 10px 0;
+    padding-left: 15px;
+    padding-right: 140px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__main-sbtn {
+    position: absolute;
+    right: 0;
+    background-color: #6bad0d;
+    border: #6bad0d;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0 25px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #629f0c;
+      border-color: #629f0c;
+    }
+
+    i {
+      font-size: 18px;
+      transform: translateY(3px);
+    }
+  }
+
+  &__main-btn {
+    background: none;
+    border: none;
+    font-weight: 300;
+    font-size: 28px;
+    color: #333;
+    margin-left: 15px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #6bad0d;
+    }
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+
+  &__ {
+
+  }
+}

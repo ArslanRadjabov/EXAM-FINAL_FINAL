@@ -1,0 +1,98 @@
+.foodList {
+    margin: 35px 0 0 0;
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+    &__list-list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+    .delivery {
+        display: flex;
+        align-items: center;
+    }
+    &__item-box {
+        display: flex;
+        align-items: center;
+    }
+    &__item-box:nth-child(1){
+        margin: 0 6px 0 0;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin: 0 0 18px 0;
+    }
+    &__item i{
+        font-size: 21px;
+        color: #777;
+        margin: 0 6px 0 0;
+    }
+    &__item p span{
+        font-size: 16px;
+        color: #777;
+        margin: 0 ;
+        font-weight: 400;
+    }
+    .july {
+
+    }
+    &__item-box i {
+        font-size: 21px;
+        color: #777;
+        margin: 0 6px 0 0;
+    }
+    &__item-text {
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        margin: 0;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .share {
+        display: flex;
+        align-items: center;
+    }
+    .share i{
+        font-size: 21px;
+        color: #777;
+        margin: 0 12px 0 0;
+    }
+    .share p{
+        font-size: 16px;
+        color: #333;
+        margin: 0 12px 0 0;
+    }
+    &__list-social {
+        font-size: 21px;
+        color: #777;
+        margin: 0 12px 0 0;
+    }
+    &__safe-box {
+        justify-content: center;
+        padding: 10px 0;
+        margin: 0 auto;
+        width: 100%;
+        border: 1px solid rgb(211, 206, 206);
+    }
+    &__safe-text {
+        font-size: 16px;
+        color: rgb(17, 16, 16);
+        margin: 0 12px;
+        margin: 0 0 10px 0;
+    }
+    &__safe-span {
+        width: 33%;
+        height: 1px;
+    }
+    &__img {
+        width: 80%;
+        height: 48px;
+    }
+}

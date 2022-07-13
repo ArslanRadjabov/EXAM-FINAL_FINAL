@@ -1,0 +1,252 @@
+.home {
+  z-index: 9999;
+  position: relative;
+  &:hover {
+    .home__hover {
+      display: block;
+    }
+  }
+}
+.home__inner-Back {
+  width: 100%;
+  background-color: #fff;
+}
+
+.home__hover {
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: 35px;
+  left: -350px;
+  background-color: transparent;
+  padding: 40px 0;
+  z-index: 999;
+  width: 1200px;
+}
+.home-hover-box {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 15px;
+  gap: 40px;
+  justify-content: space-around;
+  // overflow-y: scroll;
+}
+
+.hover-home-item {
+  transition: all ease 0.5s;
+  box-shadow: 0px 4px 64px -13px rgba(34, 60, 80, 0.2);
+  &:hover {
+    box-shadow: 0px 4px 57px 14px rgba(34, 60, 80, 0.2);
+  }
+}
+
+.shop {
+  position: relative;
+  &:hover {
+    .shop-hover {
+      display: block;
+    }
+  }
+}
+.shop-hover {
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: 40px;
+  left: -450px;
+  background-color: transparent;
+  padding: 40px 0;
+  z-index: 999;
+  width: 1200px;
+  margin: 0 auto;
+}
+.shop-hover-inner {
+  background-color: #fff;
+}
+.shop-hover-list {
+  width: 900px;
+  padding: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.shop-hover-divs {
+  text-align: left;
+}
+.shop-hover-list-item {
+  line-height: 35px;
+  font-size: 13px;
+  font-weight: 400;
+  transition: all ease 0.4s;
+  &:hover {
+    transform: translateX(5px);
+    color: var(--green);
+  }
+  .span-new {
+    text-transform: lowercase;
+    position: relative;
+    top: -8px;
+    font-size: 10px;
+    padding: 2px 8px;
+    color: #fff;
+    background-color: var(--green);
+  }
+  .span-hot {
+    left: 3px;
+    text-transform: lowercase;
+    position: relative;
+    top: -8px;
+    font-size: 10px;
+    padding: 2px 8px;
+    color: #fff;
+    background-color: rgb(253, 79, 36);
+  }
+}
+
+.element {
+  position: relative;
+  &:hover {
+    .element-hover {
+      display: block;
+    }
+  }
+}
+.element-hover {
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: 40px;
+  left: -540px;
+  background-color: transparent;
+  padding: 40px 0;
+  z-index: 999;
+  width: 1200px;
+  margin: 0 auto;
+}
+.element-hover-inner {
+  background-color: #fff;
+}
+
+.page {
+  position: relative;
+  &:hover {
+    .page-hover {
+      display: block;
+    }
+  }
+}
+.page-hover {
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: 42px;
+  left: 0;
+  background-color: transparent;
+  padding: 30px 0;
+  z-index: 999;
+  width: 200px;
+  margin: 0 auto;
+}
+.page-hover-inner {
+  padding: 30px;
+  background-color: #fff;
+  ul {
+    list-style: none;
+    text-align: left;
+    line-height: 35px;
+    li {
+      font-size: 13px;
+      font-weight: 300;
+      &:hover {
+        transition: all ease 0.5s;
+        color: var(--green);
+      }
+    }
+  }
+}
+
+.vendors {
+  position: relative;
+  &:hover {
+    .vendor-hover {
+      display: flex;
+    }
+  }
+}
+.vendor-hover {
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: 42px;
+  left: 0;
+  background-color: transparent;
+  padding: 30px 0;
+  z-index: 999;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.fruit {
+  position: relative;
+  &:hover {
+    .fruit__hover {
+      display: block;
+    }
+  }
+}
+.fruit__hover {
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: -30px;
+  right: -520px;
+  padding: 30px 20px;
+  z-index: 999;
+  width: 500px;
+  margin: 0 auto;
+  color: #000;
+}
+.fruit__hover-inner {
+  background-color: #fff;
+  background-image: url("../img/fruitBG.jpg");
+  background-size: cover;
+  padding: 25px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.vegetable {
+  position: relative;
+  &:hover {
+    .vegetable__hover {
+      display: block;
+    }
+  }
+}
+.vegetable__hover {
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  transform-origin: top right;
+  top: -30px;
+  right: -520px;
+  padding: 30px 20px;
+  z-index: 999;
+  width: 500px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.vegetable__hover-inner {
+  background-color: #fff;
+  padding: 25px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}

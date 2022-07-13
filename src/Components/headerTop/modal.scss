@@ -1,0 +1,82 @@
+.modal{
+    z-index: 99999 ;
+}
+
+.imgLogoofModal{
+    margin-left: 35%;
+}
+
+.modal--inner{
+    padding: 0 70px;
+}
+.userInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    input{
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+.form-control{
+    border-radius: 0 !important ;
+    margin: 0 auto;
+}
+.text--input{
+    text-align: left;
+}
+.submit-btn{
+    width: 100%;
+    background-color: var(--green);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgb(21, 92, 4);
+    border-radius: 0;
+}
+.login-hr{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+}
+.hr-line{
+    width: 20%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    
+}
+.socials{
+    margin: 0 auto;
+    gap: 10px;
+}
+.social__item{
+    margin-left: 70px;
+    background-color: #3B5998;
+    padding: 8px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    &:hover{
+        background-color: #0b3681;
+    }
+
+}
+.social__item2{
+    background-color: #3E7DE6;
+    padding: 8px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    &:hover{
+        background-color: #276add;
+    }
+    
+}

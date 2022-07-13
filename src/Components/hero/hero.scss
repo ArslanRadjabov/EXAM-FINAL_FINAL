@@ -1,0 +1,85 @@
+.Hero__main {
+    height: 80vh;
+}
+
+
+
+.carousel {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.slider__desc {
+    top: 100px;
+    text-align: left;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+
+    h3 {
+        text-transform: uppercase;
+    }
+}
+.textxt{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.slider__p {
+    color: rgba(0, 0, 0, 0.671);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.p-black {
+    color: rgb(20, 19, 19);
+}
+
+.span__text {
+    color: red;
+}
+
+.slider__dec-btn {
+    padding: 10px 39px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: all ease 0.1s;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+.text_blue {
+    font-size: 22px;
+    color: rgb(48, 139, 212);
+}
+
+.slider__dec-btn2 {
+    transition: all ease 0.4s;
+    padding: 10px 39px;
+    border: none;
+    background-color: var(--green);
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(23, 172, 18);
+    }
+}
+
+.slider__dec-btn3 {
+    transition: all ease 0.4s;
+    padding: 10px 39px;
+    border: none;
+    background-color: var(--green);
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(23, 172, 18);
+    }
+}
